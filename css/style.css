@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    
     font-family: "Inter", sans-serif;
     text-decoration: none;
 }
@@ -47,6 +47,7 @@ nav img{
     margin-left: 30px;
 }
 nav ul{
+    list-style-type: none;
     display: flex;
     gap: 25px;
 }
@@ -147,7 +148,7 @@ header{
 }
 .speaker-card:hover{
     transform:translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 .speaker-card img{
@@ -183,3 +184,105 @@ header{
 }
 
 /* speaker section end */
+
+/* price section start */
+.price-parent{
+    padding: 80px 0;
+    text-align: center;
+}
+.price-parent h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    font-weight: bold;
+}
+.price-parent .price-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    padding: 15px 0;
+}
+.price-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    gap: 30px;
+}
+.price-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    text-align: left;
+    padding: 40px 40px;  
+    transition: all 0.3s ease;  
+}
+.price-card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.price-card .price-p1{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+.price-card h3{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding: 10px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.price-card:hover h3{
+    color: #2563EB;
+    transform: scale(1.05);
+}
+.price-card .price-p2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+.price-top{
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 25px;
+}
+.price-card ul{
+    list-style-type: disc;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.price-card ul li{
+    padding: 5px 0;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+li::marker {
+  color: #2563EB; 
+}
+.price-card button{
+    width: 100%;
+    background-color: #fefeff;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+}
+.pro-card{
+    background-color: #0D1B2A;
+}
+.pro-card .price-p1{
+    color: #93C5FD;
+}
+.pro-card h3{
+    color: #ffffff;
+}
+.pro-card ul li{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.pro-card button{
+    background-color: #2563EB;
+    color: #ffffff;
+}
+/* price section end */
