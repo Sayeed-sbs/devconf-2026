@@ -34,9 +34,9 @@
 nav{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 30px; 
     align-items: center;
-    padding: 20px 0px;
+    padding: 18px 8%;
     background-color: #ffffff;
     margin: auto;
 }
@@ -44,6 +44,7 @@ nav img{
     padding: 0px 15px;
     height: 50px;
     width: auto;
+    margin-left: 30px;
 }
 nav ul{
     display: flex;
@@ -73,4 +74,44 @@ nav ul a:hover{
 nav ul a:hover::after{
     width: 100%;
 }
+nav button{
+    margin-right: 30px;
+}
 /* nav-section end */
+
+/* header section start */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../images/banner.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    color: #fff;
+    text-align: center;
+    padding: 0px 15px;
+}
+.header-content h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 10px;
+   
+
+}
+.header-content p{
+    font-size: 22px;
+    font-weight: 400;
+     margin-bottom: 35%;
+     margin-top: 20px;
+} 
+
+
+.header-content button{
+    font-size: 24px;
+    padding: 15px 30px;
+}
+/* header section end */
