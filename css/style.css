@@ -122,3 +122,64 @@ header{
     padding: 15px 30px;
 }
 /* header section end */
+
+/* speaker section start */
+.speaker-parent{
+    padding: 100px 0;
+    text-align: center;
+}
+.speaker-parent h2{
+    color: #000102;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.speaker-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.speaker-card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);;
+    cursor: pointer;
+}
+.speaker-card img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.speaker-card:hover img{
+    transform: scale(1.05);
+}
+.speaker-info{
+    padding: 20px 20px;
+    text-align: left;
+}
+.speaker-info .p1{
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+}
+.speaker-info h4{
+    font-size: 20px;
+    color: #0D1B2A;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: color 0.3 ease;
+}
+.speaker-info:hover h4{
+    color: #2563EB;
+}
+.speaker-info .p2{
+    color: #575757;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* speaker section end */
