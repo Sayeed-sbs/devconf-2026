@@ -287,6 +287,128 @@ li::marker {
 }
 /* price section end */
 
+/* experience section start */
+.experience-parent{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+.experience-parent h2{
+    text-align: center;
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+.experience-subtitle{
+    text-align:center;
+    color:#6B7280;
+    max-width:700px;
+    margin:0 auto 70px;
+    line-height:1.7;
+}
+/* wht attend */
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-bottom:80px;
+}
+.feature-card{
+
+    background:white;
+    cursor: pointer;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid #E5E7EB;s
+    transition: color: 0.3s ease;; 
+}
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    background-color: #051443;
+}
+.feature-icon{
+    width:70px;
+    height:70px;
+    margin:auto;
+    border-radius:50%;
+    background:#DBEAFE;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    color:#2563EB;
+    margin-bottom:25px;
+    transition:.3s;
+}
+.feature-card:hover .feature-icon{
+    background:#2563EB;
+    color:white;
+}
+.feature-card h3{
+    margin-bottom:15px;
+    color:#0D1B2A;
+}
+.feature-card:hover  h3{
+    color: #fefeff;
+}
+.feature-card p{
+    color:#6B7280;
+    line-height:1.7;
+}
+/* schedule */
+.schedule-title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:50px;
+    color:#0D1B2A;
+}
+.schedule-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.schedule-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #E5E7EB;
+    transition:.3s;
+}
+.schedule-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    border-left:6px solid #2563EB;
+}
+.schedule-card h4{
+    font-size:24px;
+    margin-bottom:25px;
+    color:#2563EB;
+}
+.schedule-card ul{
+    list-style:none;
+    padding:0;
+}
+.schedule-card li{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #E5E7EB;
+    color:#4B5563;
+}
+.schedule-card li:last-child{
+    border-bottom:none;
+}
+.schedule-card span{
+    font-weight:700;
+    color:#111827;
+}
+/* experience section end */
+
+
+
+
+
 /* footer section start */
 .footer-parent{
     padding: 60px 15px 30px;
